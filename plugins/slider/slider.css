@@ -1,0 +1,20 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+.cd-words-wrapper b {
+  position: absolute;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 2;
+}
+
